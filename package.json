@@ -1,0 +1,30 @@
+{
+  "name": "twitterapi",
+  "version": "1.0.0",
+  "description": "using mongo and node to watch changes in followers",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nacmonad/twitterapi.git"
+  },
+  "keywords": [
+    "twitter",
+    "api",
+    "node",
+    "scrape"
+  ],
+  "author": "nacmonad",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nacmonad/twitterapi/issues"
+  },
+  "homepage": "https://github.com/nacmonad/twitterapi#readme",
+  "dependencies": {
+    "big-integer": "^1.6.17",
+    "express": "^4.14.0",
+    "mongoose": "^4.6.3"
+  }
+}
